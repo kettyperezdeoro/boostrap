@@ -13,6 +13,9 @@ font-family: 'Figtree', sans-serif;
     height: 60vh;
 }
 
+.backgroundproducts {
+  background-color: whitesmoke;
+}
 /* styling page productos */
 
 /* cards */
@@ -124,3 +127,54 @@ font-family: 'Figtree', sans-serif;
     margin: 0 auto;
     }
   
+  /* MOBILE LAST */
+
+@media (max-width: 992px) {
+
+  .courses__content {
+    grid-template-columns: repeat (2, 1fr);
+  }
+
+.estructura__contenido {
+  gap: 50px;
+
+}
+
+.division {
+  padding: 30px;
+  width: auto;
+
+}
+
+@media (max-width: 768px) {
+
+  .courses__content {
+    grid-template-columns: repeat(2, 1fr);
+ 
+  }
+
+  
+  body {
+
+    display: inline;
+ 
+}
+
+
+@media (max-width: 576px) {
+
+
+    body {
+
+      display: inline-block;
+   
+  }
+  
+
+@media screen and (max-width: 480px) {
+
+  .courses__content {
+
+    grid-template-columns: 1fr;
+
+  }
