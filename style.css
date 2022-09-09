@@ -149,6 +149,19 @@ font-family: 'Figtree', sans-serif;
 
 }
 
+/* styling del formulario*/
+
+.display {
+  display: inline-block;
+}
+/* Styling footer*/
+
+footer{
+
+  background-color: rgb(28, 56, 121);
+
+}
+
 @media (max-width: 768px) {
 
   .courses__content {
