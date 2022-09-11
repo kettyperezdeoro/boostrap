@@ -144,6 +144,10 @@ font-family: 'Figtree', sans-serif;
   
   
   /* formulario */
+
+  .main {
+    background-image: url(./imagenes/crescimento-da-industria.webp);
+  }
   
   .cardform {
     background-color: rgb(96, 126, 170);
