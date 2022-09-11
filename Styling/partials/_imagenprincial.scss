@@ -1,0 +1,22 @@
+.imagenPrincipal {
+    height: 90vh; 
+    background-image: url(../imagenes/repuestoss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+
+    h2 {
+        
+        background-color: rgba(32, 32, 133, 0.042);
+        color: white;
+        border-radius: 10px;
+        font-size: 60px;
+        font-weight: bold;
+    }
+  
+    }
