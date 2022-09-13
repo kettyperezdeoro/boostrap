@@ -55,6 +55,10 @@
 
 }
 
+.par {
+ margin-bottom: 0;
+}
+
 /* styling page productos */
 
 /* cards */
@@ -278,6 +282,27 @@ footer{
 }
 
 
+
+
+
+@media (max-width: 960px) {
+
+  .courses__content {
+    grid-template-columns: repeat(2, 1fr);
+ 
+  }
+
+  .seccion {
+    display: block;
+  
+  }
+
+
+  }
+
+
+
+
 @media (max-width: 768px) {
 
   .courses__content {
@@ -299,7 +324,10 @@ footer{
       
   }
   
-
+  .seccion {
+    display: block;
+  
+  }
 
 }
 
@@ -328,7 +356,6 @@ footer{
 .imagenPrincipal {
 
   width: 589px;
- 
       
   }
 
