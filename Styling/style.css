@@ -151,22 +151,11 @@
   
   
   /* formulario */
-
-  .main {
-    background-image: url(./imagenes/crescimento-da-industria.webp);
-  }
   
   .cardform {
     background-color: rgb(96, 126, 170);
     padding: 20px;
     border-radius: 20px
-  }
-  
-  .title {
-    font-size: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  
   }
   
   .cardform__content {
@@ -177,6 +166,83 @@
     margin: 0 auto;
     }
   
+    /* contactanos */
+
+    .tituloprincipal {
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+    }
+
+    .titulobox {
+      font-size: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .parrafo {
+      display: flex;
+      justify-content: center;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      border: 2px;
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      flex: 1;
+      
+    }
+
+    .boxazul {
+      background-color: rgb(96, 126, 170);
+    }
+
+    .box1 {
+      margin-left: 100px;
+   
+    }
+
+    .box3 {
+      margin-right: 100px;
+    
+    }
+
+    .backgroundform {
+      background-color: rgb(96, 126, 170);
+
+    }
+
+   .aliform {
+    padding-left: 300px;
+    padding-top: 30px;
+    font-size: 20px;
+   }
+
+   .imagen {
+    width: 600px;
+   }
+   .map {
+    width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ /*MEDIAS QUERIS*/
+    
   /* MOBILE LAST */
 
 @media (max-width: 992px) {
@@ -211,6 +277,7 @@ footer{
 
 }
 
+
 @media (max-width: 768px) {
 
   .courses__content {
@@ -225,6 +292,15 @@ footer{
  
 }
 
+.imagenPrincipal {
+
+  width: 800px;
+ 
+      
+  }
+  
+
+
 }
 
 @media (max-width: 576px) {
@@ -235,6 +311,29 @@ footer{
       display: inline-block;
    
   }
+
+  
+.seccion {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+ 
+}
+
+.margin {
+  margin-bottom: 0;
+}
+
+.imagenPrincipal {
+
+  width: 589px;
+ 
+      
+  }
+
+
+  }
   
 
 @media screen and (max-width: 480px) {
@@ -244,7 +343,41 @@ footer{
     grid-template-columns: 1fr;
 
   }
-}
 
 
+.seccion {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+ 
 }
+
+.margin {
+  margin-bottom: 0;
+}
+
+.imagenPrincipal {
+
+  width: 199px;
+  background-position: center;
+  flex-direction: column;
+  
+ 
+      
+  }
+
+  .aliform {
+    display: block;
+
+   }
+
+   .imagen {
+    display: inline-block;
+  
+   }
+
+  
+  }
+
+
