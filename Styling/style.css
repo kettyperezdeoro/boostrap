@@ -1,6 +1,3 @@
-.backgroundproducts {
-  background-color: whitesmoke;
-}
 
 /* styling page index */
 .seccion {
@@ -28,6 +25,11 @@
 /* styling page productos */
 
 /* cards */
+
+.backgroundproducts {
+  background-color: whitesmoke;
+}
+
 
 .titulo {
 
