@@ -57,6 +57,7 @@
 
 .par {
  margin-bottom: 0;
+ padding-bottom: 0;
 }
 
 /* styling page productos */
@@ -389,6 +390,8 @@ footer{
   width: 199px;
   background-position: center;
   flex-direction: column;
+  text-align: center;
+
   
  
       
