@@ -4,17 +4,17 @@
     border-radius: 20px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
      
-     .card__title {
+     &__tittle {
         font-size: 20px;
         margin-bottom: 20px;
        
       }
       
-      .card__description {
+      &__description {
         margin-bottom: 40px;
       }
       
-      .card__link {
+       &__link {
         background-color: #22c55e;
         display: inline-block;
         width: 100%;
@@ -27,17 +27,17 @@
         font-size: 16px;
       }
 
-     .card__header {
+       &__header {
         position: relative;
       
 
-         .card__header-img {
+         &-img {
           width: 100%;
          border-radius: 10px;
           margin-bottom: 20px;
           }
 
-         .card__header-tag {
+         &-tag {
           padding: 8px;
          color: #fff;
          background-color:rgb(178, 6, 0, 50%);
@@ -46,7 +46,7 @@
          border-bottom-left-radius: 10px;
          }
   
-         .card__header-tag--strong {
+          &-tag--strong {
            text-transform: uppercase;
          font-weight: bold;
           }
@@ -69,13 +69,13 @@
     padding: 0 20px;
   
   
-      .courses__title {
+      &__tittle {
      margin-bottom: 40px;
      text-align: center;
      font-size: 40px;
      }
   
-     .courses__content {
+     &__content {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      gap: 50px;
@@ -84,3 +84,16 @@
      }   
 
 }
+
+.bodyyy {
+  background-image: url(../imagenes/repuestoss.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.backgroundproducts {
+  background-color: whitesmoke;
+}
+
