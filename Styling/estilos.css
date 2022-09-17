@@ -42,6 +42,22 @@
   color: white;
 }
 
+/* MOBILE LAST */
+@media (max-width: 768px) {
+  body {
+    display: inline-block;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 576px) and (max-width: 480px) {
+  .organizacion {
+    display: inline;
+  }
+}
 .card {
   background-color: rgb(96, 126, 170);
   padding: 20px;
@@ -121,4 +137,36 @@
 
 .backgroundproducts {
   background-color: whitesmoke;
+}
+
+/* MOBILE LAST */
+@media (max-width: 992px) {
+  .courses__content {
+    grid-template-columns: repeat 2, 1fr;
+  }
+  .estructura__contenido {
+    gap: 50px;
+  }
+  .division {
+    padding: 30px;
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .courses__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  body {
+    display: inline;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 576px) and (max-width: 480px) {
+  .courses__content {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=estilos.css.map */

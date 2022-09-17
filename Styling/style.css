@@ -1,46 +1,4 @@
 
-/* styling page index */
-.seccion {
-  display: flex;
- 
-}
-
-.organizacion {
-  width: 100%;
-}
-
-.organizacion1 {
-
-  background-color: rgb(185, 185, 185);
-
-}
-
-.organizacion2 {
-
-  background-color: rgb(28, 56, 121);
-  color: white;
-
-}
-
-/* styling page productos */
-
-/* cards */
-
-.backgroundproducts {
-  background-color: whitesmoke;
-}
-
-
-  /* LINEAS */
-
-  .bodyyy {
-    background-image: url(../imagenes/repuestoss.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
   
   /* formulario */
 
@@ -54,7 +12,7 @@
     border-radius: 20px
   }
   
-  .title {
+  .tittle {
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -102,6 +60,28 @@ footer{
   background-color: rgb(238, 238, 238);
 
 }
+
+ /* MOBILE LAST */
+
+ @media (max-width: 992px) {
+
+  .courses__content {
+    grid-template-columns: repeat (2, 1fr);
+  }
+
+.estructura__contenido {
+  gap: 50px;
+
+}
+
+.division {
+  padding: 30px;
+  width: auto;
+
+}
+
+}
+
 
 @media (max-width: 768px) {
 
