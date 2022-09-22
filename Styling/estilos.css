@@ -169,4 +169,41 @@
   .courses__content {
     grid-template-columns: 1fr;
   }
+}
+/* formulario */
+.cardform {
+  background-color: rgb(96, 126, 170);
+  padding: 20px;
+  border-radius: 20px;
+}
+.cardform__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tittle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* MOBILE LAST */
+@media (max-width: 992px) {
+  .courses__content {
+    grid-template-columns: repeat 2, 1fr;
+  }
+  .estructura__contenido {
+    gap: 50px;
+  }
+  .division {
+    padding: 30px;
+    width: auto;
+  }
+}
+/* styling del formulario*/
+.display {
+  display: inline-block;
 }/*# sourceMappingURL=estilos.css.map */
