@@ -50,5 +50,141 @@
    }
 
 
+ /* MOBILE LAST */
+
+ @media (max-width: 992px) {
+  
+  .division {
+    padding: 30px;
+    width: auto;
+  
+  }
+  
+  }
+  
+  /* styling del formulario*/
+  
+  .display {
+    display: inline-block;
+  }
+  /* Styling footer*/
+  
+  footer{
+  
+    background-color: rgb(238, 238, 238);
+  
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 960px) {
+    .seccion {
+      display: block;
+    
+    }
+  
+  
+    }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+  
+    
+    body {
+  
+      display: inline;
+   
+  }
+  
+  .imagenPrincipal {
+  
+    width: 800px;
+   
+        
+    }
+    
+    .seccion {
+      display: block;
+    
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+  
+  
+      body {
+  
+        display: inline-block;
+     
+    }
+  
+    
+  .seccion {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+  }
+  
+  .margin {
+    margin-bottom: 0;
+  }
+  
+  .imagenPrincipal {
+  
+    width: 589px;
+        
+    }
+  
+  
+    }
+    
+  
+  @media screen and (max-width: 480px) {
+
+  .seccion {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+  }
+  
+  .margin {
+    margin-bottom: 0;
+  }
+  
+  .imagenPrincipal {
+  
+    width: 199px;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+   
+        
+    }
+  
+    .aliform {
+      display: block;
+  
+     }
+  
+     .imagen {
+      display: inline-block;
+    
+     }
+  
+    
+    }
+  
+  
+  
+
 
   

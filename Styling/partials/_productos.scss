@@ -35,4 +35,182 @@
      font-weight: bold;
      font-size: 16px;
       }
+
+     &__header {
+        position: relative;
+      
+
+         &-img {
+         width: 100%;
+         border-radius: 10px;
+         margin-bottom: 20px;
+         }
+         
+         &-tag {
+         padding: 8px;
+         color: #fff;
+         background-color:rgb(178, 6, 0, 50%);
+         position: absolute;
+         right: 0;
+         border-bottom-left-radius: 10px;
+         }
+      
+         &-tag--strong {
+         text-transform: uppercase;
+         font-weight: bold;
+         }
 }
+
+}
+
+/* Contenido de cursos */
+
+.courses {
+    margin-top: 60px;
+    padding: 0 20px;
+  
+     &__title {
+     margin-bottom: 40px;
+     text-align: center;
+     font-size: 40px;
+     }
+  
+     &__content {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
+     max-width: 1200px;
+     margin: 0 auto;
+     }
+
+     }
+
+     .bodyyy {
+        background-image: url(../imagenes/repuestoss.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+  
+     .cardform {
+        background-color: rgb(96, 126, 170);
+        padding: 20px;
+        border-radius: 20px;
+      
+         &__content {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 50px;
+         max-width: 1200px;
+        margin: 0 auto;
+        }
+
+      }
+
+      
+.backgroundproducts {
+    background-color: whitesmoke;
+  }
+
+      
+  /* MOBILE LAST */
+
+@media (max-width: 992px) {
+
+    .courses__content {
+      grid-template-columns: repeat (2, 1fr);
+    }
+  
+  .estructura__contenido {
+    gap: 50px;
+  
+  }
+  
+  .division {
+    padding: 30px;
+    width: auto;
+  
+  }
+  
+  }
+  
+  /* Styling footer*/
+  
+  footer{
+  
+    background-color: rgb(238, 238, 238);
+  
+  }
+  
+  
+  
+  @media (max-width: 960px) {
+  
+    .courses__content {
+      grid-template-columns: repeat(2, 1fr);
+   
+    }
+  
+    .seccion {
+      display: block;
+    
+    }
+  
+  
+    }
+  
+  
+  @media (max-width: 768px) {
+  
+    .courses__content {
+      grid-template-columns: repeat(2, 1fr);
+   
+    }
+  
+    
+    body {
+  
+      display: inline;
+   
+  }
+    
+  }
+  
+  @media (max-width: 576px) {
+  
+  
+      body {
+  
+        display: inline-block;
+     
+    }
+  
+  
+  .margin {
+    margin-bottom: 0;
+  }
+  
+  
+    }
+    
+  
+  @media screen and (max-width: 480px) {
+  
+    .courses__content {
+  
+      grid-template-columns: 1fr;
+  
+    }
+  
+  .margin {
+    margin-bottom: 0;
+  }
+   
+    }
+  
+  
+  
+
+  
+    
