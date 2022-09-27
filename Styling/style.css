@@ -1,63 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Figtree", sans-serif;
-}
-
-.imagenPrincipal {
-  height: 90vh;
-  background-image: url(../imagenes/repuestoss.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-inline: 200px;
-}
-
-.imagenPrincipal h2 {
-  background-color: rgba(32, 32, 133, 0.042);
-  color: white;
-  border-radius: 10px;
-  font-size: 60px;
-  font-weight: bold;
-  
-
-}
 
 .backgroundproducts {
   background-color: whitesmoke;
-}
-
-/* styling page index */
-.seccion {
-  display: flex;
- 
-}
-
-.organizacion {
-  width: 100%;
-}
-
-.organizacion1 {
-
-  background-color: rgb(185, 185, 185);
-
-}
-
-.organizacion2 {
-
-  background-color: rgb(28, 56, 121);
-  color: white;
-
-}
-
-.par {
- margin-bottom: 0;
- padding-bottom: 0;
 }
 
 /* styling page productos */
