@@ -9,6 +9,14 @@
   background-color: rgb(28, 56, 121);
 }
 
+.centrotexto {
+  display: flex;
+  background-color: rgb(189, 56, 56);
+  color: white;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
 .imagenPrincipal {
   height: 90vh;
   background-image: url(../imagenes/repuestoss.jpg);
@@ -314,9 +322,12 @@ footer {
 }
 
 .aliform {
-  padding-left: 300px;
   padding-top: 30px;
   font-size: 20px;
+}
+
+.display {
+  display: flex;
 }
 
 .imagen {
@@ -325,4 +336,52 @@ footer {
 
 .map {
   width: 100%;
+}
+
+/* MOBILE LAST */
+@media (max-width: 992px) {
+  .tituloprincipal {
+    align-items: center;
+    align-content: center;
+  }
+}
+footer {
+  background-color: rgb(238, 238, 238);
+}
+
+@media (max-width: 960px) {
+  .tituloprincipal {
+    align-items: center;
+    align-content: center;
+  }
+}
+footer {
+  background-color: rgb(238, 238, 238);
+}
+
+@media (max-width: 897px) {
+  .imagen {
+    width: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .imagen {
+    width: 1px;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    display: inline-block;
+  }
+  .margin {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .courses__content {
+    grid-template-columns: 1fr;
+  }
+  .margin {
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=estilos.css.map */

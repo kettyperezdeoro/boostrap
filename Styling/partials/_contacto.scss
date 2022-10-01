@@ -1,5 +1,4 @@
-
-    .tituloprincipal {
+     .tituloprincipal {
         display: flex;
         justify-content: center;
         font-size: 50px;
@@ -48,9 +47,13 @@
       }
   
      .aliform {
-      padding-left: 300px;
       padding-top: 30px;
       font-size: 20px;
+     }
+
+     .display {
+      display: flex;
+
      }
   
      .imagen {
@@ -59,6 +62,99 @@
      .map {
       width: 100%;
      }
+  
+     /* MOBILE LAST */
+
+@media (max-width: 992px) {
+
+  .tituloprincipal {
+    align-items: center;
+    align-content: center;
+  }
+
+
+}
+
+footer{
+
+  background-color: rgb(238, 238, 238);
+
+}
+
+
+
+@media (max-width: 960px) {
+
+  .tituloprincipal {
+    align-items: center;
+    align-content: center;
+  }
+
+
+}
+
+footer{
+
+  background-color: rgb(238, 238, 238);
+
+
+  }
+  
+
+@media (max-width: 897px) {
+
+    .imagen {
+    
+      width: 1px;
+     }
+    
+  }
+  
+@media (max-width: 768px) {
+
+  .imagen {
+   
+    width: 1px;
+   }
+  
+}
+
+@media (max-width: 576px) {
+
+
+    body {
+
+      display: inline-block;
+   
+  }
+
+
+.margin {
+  margin-bottom: 0;
+}
+
+
+  }
+  
+
+@media screen and (max-width: 480px) {
+
+  .courses__content {
+
+    grid-template-columns: 1fr;
+
+  }
+
+.margin {
+  margin-bottom: 0;
+}
+ 
+  }
+
+
+
+
+
   
   
   
