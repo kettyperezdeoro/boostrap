@@ -17,15 +17,22 @@ body{
       
     }
 
+    @mixin flex ($direction, $justify, $align) {
+
+      display: flex;
+      flex-direction: $direction;
+      justify-content: $justify;
+      align-items: $align;
+      
+     }
+
 .imagenPrincipal {
     height: 90vh;
     background-image: url(../imagenes/repuestoss.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex, center, center);
     flex-direction: column;
     padding-inline: 200px;
    
@@ -69,11 +76,20 @@ body{
    }
 
    h4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    @include flex(flex, center, center);
+  
    }
 
+   .rotate-center {
+    -webkit-animation:rotate-center .6s ease-in-out both;
+    animation:rotate-center .6s ease-in-out both;
+  }
+
+
+@-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
 
  /* MOBILE LAST */
 

@@ -1,7 +1,15 @@
+ @mixin flex ($direction, $justify, $align) {
+
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  
+ }
      .tituloprincipal {
-        display: flex;
-        justify-content: center;
-        font-size: 50px;
+      @include flex(flex, center, center);
+      
+      font-size: 50px;
       }
   
       .titulobox {
@@ -11,11 +19,9 @@
       }
   
       .parrafo {
-        display: flex;
-        justify-content: center;
+        @include flex (flex, center, center);
         font-size: 30px;
-        justify-content: center;
-        align-items: center;
+
       }
   
       .box {
