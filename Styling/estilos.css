@@ -369,19 +369,120 @@ footer {
     width: 1px;
   }
 }
-@media (max-width: 576px) {
-  body {
-    display: inline-block;
+@media (max-width: 700px) {
+  .display {
+    display: block;
   }
-  .margin {
-    margin-bottom: 0;
+  .display .imagen {
+    width: 1px;
+  }
+  .display .box {
+    display: block;
+    border: 2px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(96, 126, 170);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .boxazul {
+    background-color: rgb(96, 126, 170);
+  }
+  .display .box1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .box3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .titulobox {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .display .aliform {
+    padding-top: 0px;
+    font-size: 20px;
   }
 }
-@media screen and (max-width: 480px) {
-  .courses__content {
-    grid-template-columns: 1fr;
+@media (max-width: 700px) and (max-width: 576px) {
+  .display {
+    display: block;
   }
-  .margin {
-    margin-bottom: 0;
+  .display .imagen {
+    width: 1px;
+  }
+  .display .box {
+    display: block;
+    border: 2px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(96, 126, 170);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .boxazul {
+    background-color: rgb(96, 126, 170);
+  }
+  .display .box1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .box3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .titulobox {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .display .aliform {
+    padding-top: 0px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) and (max-width: 480px) {
+  .display {
+    display: block;
+  }
+  .display .imagen {
+    width: 1px;
+  }
+  .display .box {
+    display: block;
+    border: 2px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(96, 126, 170);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .boxazul {
+    background-color: rgb(96, 126, 170);
+  }
+  .display .box1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .box3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .display .titulobox {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .display .aliform {
+    padding-top: 0px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=estilos.css.map */

@@ -119,42 +119,169 @@ footer{
   
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
+
+  .display {
+    display: block;
 
 
-    body {
-
-      display: inline-block;
+  .imagen {
    
+    width: 1px;
+   }
+
+   .box {
+    display: block;
+    border: 2px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:  rgb(96, 126, 170);
+    margin-left: 20px;
+    margin-right: 20px;
+    
   }
 
-
-.margin {
-  margin-bottom: 0;
-}
-
-
-  }
-  
-
-@media screen and (max-width: 480px) {
-
-  .courses__content {
-
-    grid-template-columns: 1fr;
-
+  .boxazul {
+    background-color: rgb(96, 126, 170);
   }
 
-.margin {
-  margin-bottom: 0;
-}
+  .box1 {
+    margin-left: 20px;
+    margin-right: 20px;
  
   }
 
-
-
-
-
+  .box3 {
+    margin-left: 20px;
+    margin-right: 20px;
   
+  }
+
+  .titulobox {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aliform {
+    padding-top: 0px;
+    font-size: 20px;
+   }
   
+}
+
+@media (max-width: 576px) {
+
+
+   
+  .display {
+    display: block;
+
+
+  .imagen {
+   
+    width: 1px;
+   }
+
+   .box {
+    display: block;
+    border: 2px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:  rgb(96, 126, 170);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
+  .boxazul {
+    background-color: rgb(96, 126, 170);
+  }
+
+  .box1 {
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+  }
+
+  .box3 {
+    margin-left: 20px;
+    margin-right: 20px;
   
+  }
+
+  .titulobox {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aliform {
+    padding-top: 0px;
+    font-size: 20px;
+   }
+  
+}
+
+}
+
+@media screen and (max-width: 480px) {
+   
+  .display {
+    display: block;
+
+
+  .imagen {
+   
+    width: 1px;
+   }
+
+   .box {
+    display: block;
+    border: 2px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:  rgb(96, 126, 170);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
+  .boxazul {
+    background-color: rgb(96, 126, 170);
+  }
+
+  .box1 {
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+  }
+
+  .box3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  
+  }
+
+  .titulobox {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aliform {
+    padding-top: 0px;
+    font-size: 20px;
+   }
+  
+}
+
+}
+
+}
