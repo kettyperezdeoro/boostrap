@@ -9,6 +9,14 @@
   background-color: rgb(28, 56, 121);
 }
 
+body {
+  margin: 5px;
+}
+
+.margin {
+  margin-bottom: 0%;
+}
+
 .centrotexto {
   display: flex;
   background-color: rgb(189, 56, 56);
@@ -57,6 +65,12 @@
 .par {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* MOBILE LAST */
@@ -478,6 +492,16 @@ footer {
   .display .titulobox {
     display: flex;
     font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .display .tituloprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .display .alineacion {
     justify-content: center;
     align-items: center;
   }
