@@ -16,11 +16,13 @@
         font-size: 40px;
         justify-content: center;
         align-items: center;
+        display: flex;
       }
   
       .parrafo {
         @include flex (flex, center, center);
         font-size: 30px;
+        display: flex;
 
       }
   
@@ -48,12 +50,17 @@
       }
   
       .backgroundform {
-        background-color: rgb(96, 126, 170);
+        background-color: whitesmoke;
   
       }
   
      .aliform {
       padding-top: 30px;
+      padding-left: 50px;
+      padding-bottom: 50px;
+      padding-right: 100px;
+
+    
       font-size: 20px;
      }
 
@@ -62,8 +69,12 @@
 
      }
   
-     .imagen {
-      width: 600px;
+
+   
+
+     .alinear {
+      align-items: flex-end;
+      align-content: flex-end;
      }
      .map {
       width: 100%;
