@@ -8,14 +8,21 @@ body{
     
     .centrotexto {
 
+
       display: flex;
       background-color: rgb(189, 56, 56);
       color: white;
       justify-content: center;
       margin-bottom: 0;
       
-      
     }
+
+    .animacion {
+      -webkit-animation:rotate-hor-top .10s cubic-bezier(.645,.045,.355,1.000) both;
+      animation:rotate-hor-top .5s cubic-bezier(.645,.045,.355,1.000) both;
+    
+    }
+
 
     @mixin flex ($direction, $justify, $align) {
 
@@ -90,6 +97,12 @@ body{
 @-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
 
 @keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+
+
+ @-webkit-keyframes rotate-hor-top{0%{-webkit-transform:rotateX(0);transform:rotateX(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotateX(-360deg);transform:rotateX(-360deg);-webkit-transform-origin:top;transform-origin:top}}
+ 
+ @keyframes rotate-hor-top{0%{-webkit-transform:rotateX(0);transform:rotateX(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotateX(-360deg);transform:rotateX(-360deg);-webkit-transform-origin:top;transform-origin:top}}
 
  /* MOBILE LAST */
 
