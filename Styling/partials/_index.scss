@@ -10,10 +10,11 @@ body{
 
 
       display: flex;
-      background-color: rgb(189, 56, 56);
+      background-color: rgb(74, 74, 187);
       color: white;
       justify-content: center;
       margin-bottom: 0;
+      border: 100px;
       
     }
 
@@ -61,6 +62,7 @@ body{
 
 .organizacion {
     width: 100%;
+    font-size: 30px;
   }
   
 .organizacion1 {
@@ -85,8 +87,14 @@ body{
    h4 {
 
     @include flex(flex, center, center);
+    margin: 20px;
+    font-size: 50px;
   
    }
+
+   .margenes {
+    margin: 30px;
+  }
 
    .rotate-center {
     -webkit-animation:rotate-center .6s ease-in-out both;

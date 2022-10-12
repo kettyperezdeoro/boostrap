@@ -19,10 +19,11 @@ body {
 
 .centrotexto {
   display: flex;
-  background-color: rgb(189, 56, 56);
+  background-color: rgb(74, 74, 187);
   color: white;
   justify-content: center;
   margin-bottom: 0;
+  border: 100px;
 }
 
 .animacion {
@@ -57,6 +58,7 @@ body {
 
 .organizacion {
   width: 100%;
+  font-size: 30px;
 }
 
 .organizacion1 {
@@ -78,6 +80,12 @@ h4 {
   flex-direction: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+  font-size: 50px;
+}
+
+.margenes {
+  margin: 30px;
 }
 
 .rotate-center {
@@ -352,6 +360,7 @@ footer {
   justify-content: center;
   align-items: center;
   display: flex;
+  size: bold;
 }
 
 .parrafo {
@@ -361,6 +370,7 @@ footer {
   align-items: center;
   font-size: 30px;
   display: flex;
+  margin: 10px;
 }
 
 .box {
@@ -406,6 +416,13 @@ footer {
 
 .map {
   width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  size: 50px;
 }
 
 /* MOBILE LAST */
